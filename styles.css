@@ -230,3 +230,63 @@ h1 {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+.brain-text h2 {
+    font-size: 40px;
+    margin: 10px 0 20px;
+    line-height: 1.2;
+}
+
+.description {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.feature-list img {
+    height: 20px;
+    width: 20px;
+}
+.early-access-section {
+    padding: 80px 20px;
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+}
+
+.access-card {
+    background-color: #f6f8fa;
+    color: black;
+    text-align: center;
+    padding: 60px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.access-card h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.large-btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #666;
+    margin-top: 15px;
+}
