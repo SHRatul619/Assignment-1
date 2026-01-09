@@ -22,10 +22,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding: 20px 0; 
     background-color: #fff; 
     color: black;
-
 }
     
 
@@ -34,12 +33,7 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 25px; 
-}
+
 
 .logo-img {
     height: 40px;
@@ -51,14 +45,14 @@ header {
     gap: 30px;
 }
 
-btn-primary {
+.btn-primary {
     background-color: #2ea043;
     color: white;
     border: none;
     padding: 10px 25px;
     border-radius: 8px;
     cursor: pointer;
-    font-weight: 650;
+    font-weight: 600;
     transition: 0.5s;
 }
 
@@ -146,8 +140,13 @@ h1 {
 }
 
 .notes-section {
-    padding: 100px 25px;
-    text-align: center;
+    padding: 100px 20px;
+    text-align: center; 
+}
+
+.section-header {
+    max-width: 800px;
+    margin: 0 auto 50px auto; 
 }
 
 .section-header h2 {
@@ -189,9 +188,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-.red icon { background-color: #ff6b6b; }
-.orange icon { background-color: #ff9f43; }
-.pink icon { background-color: #ff9ff3; }
+.red-icon { background-color: #ff6b6b; }
+.orange-icon { background-color: #ff9f43; }
+.pink-icon { background-color: #ff9ff3; }
 
 .card h3 {
     font-size: 18px;
@@ -217,6 +216,12 @@ h1 {
     justify-content: center;
     gap: 60px;
     flex-wrap: wrap;
+}
+
+.brain-container img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
 }
 
 .brain-text {
@@ -289,4 +294,41 @@ h1 {
     font-size: 12px;
     color: #666;
     margin-top: 15px;
+}
+
+.footer {
+    background-color: #010409;
+    padding: 60px 0 30px;
+    border-top: 1px solid #30363d;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.social-label {
+    font-size: 12px;
+    color: #8b949e;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #30363d;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #8b949e;
 }
