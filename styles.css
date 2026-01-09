@@ -88,3 +88,25 @@ btn-primary {
     margin-bottom: 20px;
     background: rgba(46, 160, 67, 0.1);
 }
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.highlight {
+    color: #2ea043;
+}
+
+.banner-content p {
+    color: #8b949e;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
